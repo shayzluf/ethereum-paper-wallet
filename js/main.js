@@ -116,20 +116,16 @@ function setupOfflineDownload() {
     const downloadLink = document.getElementById('download-html');
     
     if (downloadLink) {
-        downloadLink.addEventListener('click', (event) => {
-            event.preventDefault();
-            
-            // Get the GitHub repository zip download URL
-            const repoZipUrl = 'https://github.com/shayzluf/ethereum-paper-wallet/archive/refs/heads/main.zip';
-            
-            // Open the download in a new tab (this handles large files better than programmatic download)
-            window.open(repoZipUrl, '_blank');
-            
-            // Show instructions
-            alert('Downloading the complete repository for offline use.\n\nFor maximum security:\n1. Extract the zip file after download\n2. Disconnect from the internet\n3. Open the index.html file in your browser\n4. Generate and print your wallet\n5. Close the browser when done');
-        });
+        // The href is already set in the HTML to point directly to the ZIP file
         
-        // Update link text to be more descriptive
-        downloadLink.textContent = 'Download Complete App';
+        // Add click handler to show instructions after click
+        downloadLink.addEventListener('click', (event) => {
+            // Don't prevent default - let the browser handle the actual download
+            
+            // Show instructions in a setTimeout to allow the download to start first
+            setTimeout(() => {
+                alert('Downloading the complete repository for offline use.\n\nFor maximum security:\n1. Extract the zip file after download\n2. Disconnect from the internet\n3. Open the index.html file in your browser\n4. Generate and print your wallet\n5. Close the browser when done');
+            }, 100);
+        });
     }
 } 

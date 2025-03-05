@@ -7,7 +7,7 @@
     <meta name="description" content="A secure, minimal Ethereum paper wallet generator">
     <meta name="author" content="PaperWallet">
     <!-- Content Security Policy to enhance security but allow inline styles for QR codes -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://github.com;">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -15,7 +15,7 @@
         <h1>Ethereum Paper Wallet Generator</h1>
         <div class="offline-notice">
             <p><strong>Security Tip:</strong> For maximum security, download the complete app and run it offline. 
-               <a href="#" id="download-html">Download Complete App</a>
+               <a href="https://github.com/shayzluf/ethereum-paper-wallet/archive/refs/heads/main.zip" id="download-html" target="_blank" rel="noopener noreferrer">Download Complete App</a>
             </p>
         </div>
     </header>
