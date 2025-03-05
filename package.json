@@ -1,0 +1,35 @@
+{
+  "name": "ethereum-paper-wallet",
+  "version": "1.0.0",
+  "description": "A secure Ethereum paper wallet generator",
+  "main": "index.html",
+  "homepage": "https://YOUR_USERNAME.github.io/ethereum-paper-wallet",
+  "scripts": {
+    "test": "jest",
+    "predeploy": "echo 'Ready to deploy'",
+    "deploy": "echo 'Deploy manually by pushing to the gh-pages branch or setting up GitHub Actions'"
+  },
+  "keywords": [
+    "ethereum",
+    "wallet",
+    "paper-wallet",
+    "cryptocurrency"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "babel-jest": "^29.6.1",
+    "ethers": "^5.7.2",
+    "jest": "^29.6.1",
+    "jest-environment-jsdom": "^29.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/ethereum-paper-wallet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/ethereum-paper-wallet/issues"
+  }
+} 
