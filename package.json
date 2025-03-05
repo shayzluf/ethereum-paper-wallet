@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A secure Ethereum paper wallet generator",
   "main": "index.html",
-  "homepage": "https://YOUR_USERNAME.github.io/ethereum-paper-wallet",
+  "homepage": "https://shayzluf.github.io/ethereum-paper-wallet",
   "scripts": {
     "test": "jest",
     "predeploy": "echo 'Ready to deploy'",
@@ -27,9 +27,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_USERNAME/ethereum-paper-wallet.git"
+    "url": "git+https://github.com/shayzluf/ethereum-paper-wallet.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_USERNAME/ethereum-paper-wallet/issues"
+    "url": "https://github.com/shayzluf/ethereum-paper-wallet/issues"
   }
 } 

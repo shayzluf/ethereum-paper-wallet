@@ -42,13 +42,13 @@ function setupEventListeners() {
     // GitHub link
     const githubLink = document.getElementById('github-link');
     if (githubLink) {
-        githubLink.href = 'https://github.com/YourUsername/ethereum-paper-wallet';
+        githubLink.href = 'https://github.com/shayzluf/ethereum-paper-wallet';
     }
 
     // Set up GitHub link
     document.getElementById('github-link').addEventListener('click', function(event) {
         event.preventDefault();
-        window.open('https://github.com/YOUR_USERNAME/ethereum-paper-wallet', '_blank');
+        window.open('https://github.com/shayzluf/ethereum-paper-wallet', '_blank');
     });
 }
 

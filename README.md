@@ -21,7 +21,7 @@ A secure, client-side Ethereum paper wallet generator that runs entirely in your
 
 ## Usage
 
-1. Visit the [Ethereum Paper Wallet Generator](https://yourusername.github.io/ethereum-paper-wallet/) (replace with your actual GitHub Pages URL)
+1. Visit the [Ethereum Paper Wallet Generator](https://shayzluf.github.io/ethereum-paper-wallet/) (replace with your actual GitHub Pages URL)
 2. For maximum security, download the page and run it offline
 3. Enter an optional recipient name
 4. Click "Generate Secure Wallet" to create a new Ethereum wallet
